@@ -1,0 +1,36 @@
+.students-page {
+  min-height: calc(100vh - 200px);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border-width: 0.3rem;
+}
+
+.alert {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+}
+
+.student-grid {
+  animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
